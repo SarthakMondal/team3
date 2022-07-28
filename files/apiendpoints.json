@@ -1,0 +1,63 @@
+
+
+[{
+    "signup-post": "http://localhost:8080/musicapp/backend/user/public/signup",
+    "login-post": "http://localhost:8080/musicapp/backend/user/public/login",
+    "profile-get": "http://localhost:8080/musicapp/backend/user/protected/profile",
+    "updateprofile-put": "http://localhost:8080/musicapp/backend/user/protected/updateprofile",
+    "updateuser-put": "http://localhost:8080/musicapp/backend/admin/protected/updateuser/{id}",
+    "deleteuser-delete": "http://localhost:8080/musicapp/backend/admin/protected/deleteuser/{id}",
+    "getidandrole-get": "http://localhost:8080/musicapp/backend/admin/protected/getuseridandrole",
+    "getuser-get": "http://localhost:8080/musicapp/backend/admin/protected/getuser/{id}",
+    "userlist-get": "http://localhost:8080/musicapp/backend/admin/protected/getusers",
+    "addalbum-post": "http://localhost:8080/musicapp/backend/admin/protected/addalbum",
+    "addmusic-post": "http://localhost:8080/musicapp/backend/admin/protected/addmusic",
+    "updatealbum-put": "http://localhost:8080/musicapp/backend/admin/protected/updatealbum",
+    "updatemusic-put": "http://localhost:8080/musicapp/backend/admin/protected/updatemusic",
+    "deletealbum-delete": "http://localhost:8080/musicapp/backend/admin/protected/deletealbum",
+    "deletemusic-delete": "http://localhost:8080/musicapp/backend/admin/protected/deletemusic",
+    "viewallalbums-get": "http://localhost:8080/musicapp/backend/user/protected/viewallalbums",
+    "viewalbumsongs-get": "http://localhost:8080/musicapp/backend/user/protected/viewalbumsongs/{id}",
+    "viewalbum-get": "http://localhost:8080/musicapp/backend/user/protected/viewalbum/{id}",
+    "viewmusic-get": "http://localhost:8080/musicapp/backend/user/protected/viewmusic/{id}",
+    "searchalbum-get": "http://localhost:8080/musicapp/backend/user/protected/searchalbum/{keyword}",
+    "searchmusic-get": "http://localhost:8080/musicapp/backend/user/protected/searchmusic/{keyword}",
+    "likemusic-post": "http://localhost:8080/musicapp/backend/user/protected/likemusic/{musicId}",
+    "dislike-post": "http://localhost:8080/musicapp/backend/user/protected/dislikemusic/{musicId}",
+    "likecount-post": "http://localhost:8080/musicapp/backend/user/protected/getlikecount/{musicId}",
+    "dislikecount-post": "http://localhost:8080/musicapp/backend/user/protected/getdislikecount/{musicId}",
+    "comment-post": "http://localhost:8080/musicapp/backend/user/protected/comment",
+    "mycomments-post": "http://localhost:8080/musicapp/backend/user/protected/mycomments/{musicId}",
+    "getlikeduser-post": "http://localhost:8080/musicapp/backend/user/protected/getlikedusers/{musicId}",
+    "getdislikeduser-post": "http://localhost:8080/musicapp/backend/user/protected/getdislikedusers/{musicId}",
+    "getcommentsforsong-post": "http://localhost:8080/musicapp/backend/user/protected/getallcomments/{musicId}"
+    
+},
+
+{
+    "emailId": "cbennington.admin.1976@gmail.com",
+    "password": "cbennington_admin",
+    "userName": "Chester Bennington",
+    "mobileNo": "9803645210",
+    "userGender": "Male",
+    "userAge": 25
+
+},
+
+{
+    "albumName": "album1",
+    "publishYear": 1947,
+    "albumImageUrl": "image_url"
+},
+
+{
+    "albumId": "id",
+    "musicName": "music1",
+    "artistName": "artist",
+    "musicUrl": "music_url"
+}
+
+
+
+
+]
